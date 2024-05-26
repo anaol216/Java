@@ -3,6 +3,8 @@ package GUI;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.net.URI;
+//import java.awt.desktop;
 
 import javax.swing.*;
 
@@ -79,5 +81,10 @@ public class loginTik implements ActionListener {
         String user = userText.getText();
         String password = passwordField.getText();
         System.out.println(user + ", " + password);
+        try {
+            Desktop.getDesktop().browse(new URI("https://www.tiktok.com/login"));
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
     }
 }
