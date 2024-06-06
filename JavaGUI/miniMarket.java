@@ -50,6 +50,14 @@ public class miniMarket implements ActionListener {
         l3.setHorizontalAlignment(bu3.RIGHT);
         l4 = new JLabel("Total price of quantities you buy is ");
 
+        pane1.add(b1);
+        pane1.add(l1);
+        pane1.add(b2);
+        pane1.add(l2);
+        pane1.add(b3);
+        pane1.add(l3);
+       
+
         frame.add(panel);
 
         frame.pack();
