@@ -7,7 +7,7 @@ public class pattern {
                 if (j == i || j == (10 - i))
                     System.out.print(j + " ");
                 else
-                    System.out.print("* ");
+                    System.out.print(" * ");
             }
             System.out.println();
 
