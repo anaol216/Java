@@ -14,7 +14,7 @@ public class sum {
         num1 = Double.parseDouble(n1);
         num2 = Double.parseDouble(n2);
 
-        double sum = num1 + num2;
+        double sum = num1 - num2;
         JOptionPane.showMessageDialog(null, "The sum is " + sum, "Sum of Two Integers",
                 JOptionPane.INFORMATION_MESSAGE);
     }
